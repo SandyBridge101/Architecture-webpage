@@ -1,0 +1,142 @@
+*
+{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.header
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction: row;
+}
+
+.navigation
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body
+{
+    background-image: url("images/pexels-marcos-bais-1843572.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section1
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction:column;
+    justify-content: center;
+    color:black;
+    height: 500px;
+    background-image: url("images/pexels-david-yu-1844831.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section2
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction:column;
+    justify-content: center;
+    gap: 30px 30px;
+}
+
+.section2 img
+{
+    width: 500px;
+    height: 500px;
+    border: thick solid black;
+    border-radius: 15px;
+}
+
+.txt1
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction:row;
+    justify-content: center;
+    font-size: 50px;    
+    font-family:serif;
+    font-weight: bolder;
+}
+
+.txt2
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction:row;
+    justify-content: center;
+    font-size:35px;
+    font-family:serif;
+    font-weight: bolder;
+
+}
+
+.bt1
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction:row;
+    justify-content: center; 
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.project1
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.project2
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.project3
+{
+    display: flex;
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.ararat
+{
+    font-family:serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.archi
+{
+    font-family: monospace;
+    font-weight: lighter;
+    color: gray;
+}
